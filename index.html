@@ -1,0 +1,29 @@
+<!Doctype HTML>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <style>
+            #login-div{
+                display: flex;
+                flex-direction: column;
+                width: 200px;
+                margin: auto;
+            }
+            #buttons-div{
+                display: flex;
+                justify-content: space-evenly;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="login-div">
+            <h1>Login Below</h1><br />
+            <label for="username">Username: </label><input type="text" id="username" class="inputs" /><br /><br />
+            <label for="password">Password: </label><input type="password" id="password" class="inputs" /><br />
+            <div id="buttons-div">
+                <input type="submit" value="Login" id="login" class="buttons" />
+                <input type="submit" value="Sign Up" id="sign-up" class="buttons" />
+            </div>
+        </div>
+    </body>
+</html>
