@@ -1,3 +1,7 @@
+body{
+    background-color: bisque;
+}
+
 /* div for entire login contents (buttons, inputs, etc.)  */
 #login-div{
     display: flex;
