@@ -1,0 +1,40 @@
+body{
+    background-color: bisque;
+}
+
+/* div for entire login contents (buttons, inputs, etc.)  */
+#login-div{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin: auto;
+}
+
+/* BUTTONS STYLING */
+
+#buttons-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.buttons{
+    width: 120px;
+    font-size: 16px;
+}
+
+#login{
+    background-color: green;
+    color: white;
+}
+
+/* link stylings */
+.links{
+    color: red;
+}
+
+.inputs{
+    border-radius: 5px;
+}
